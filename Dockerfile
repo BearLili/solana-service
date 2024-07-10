@@ -21,4 +21,4 @@ EXPOSE 3000
 # COPY ecosystem.config.js ./
 
 # Use pm2-runtime to start the server
-CMD ["pm2-runtime", "dist.js"]
+CMD ["pm2-runtime", "server.js"]
